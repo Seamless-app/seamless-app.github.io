@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seamless App Authentication</title>
+  <script>
+    window.location = "seamlessapp://auth/callback" + window.location.search;
+  </script>
+</head>
+<body>
+  <h1>Authentication in progress...</h1>  </body>
+</html>
